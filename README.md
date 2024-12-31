@@ -34,9 +34,9 @@ Este é um projeto simples e funcional de **Gerador de Código de Barras** desen
 
 3. Abra o arquivo `index.html` no navegador.
 
-4. Digite o texto ou número no campo de entrada e clique no botão "Gerar Código de Barras".
+4. Digite o texto ou número no campo de entrada e clique no botão "**Gerar Código de Barras**".
 
-O código de barras será exibido. Clique no botão "Baixar Código de Barras" para salvar a imagem no seu dispositivo.
+5. O código de barras será exibido. Clique no botão "**Baixar Código de Barras**" para salvar a imagem no seu dispositivo.
 
 ## Estrutura do Projeto
 
@@ -67,12 +67,12 @@ JsBarcode(barcode, input, {
 
 Sinta-se à vontade para contribuir com melhorias ou novas funcionalidades. Para isso:
 
-Faça um fork do projeto.
+1. Faça um fork do projeto.
 
-Crie uma branch para sua feature:
+2. Crie uma branch para sua feature:
 
    ```bash
    git checkout -b minha-nova-feature
    ```
 
-Faça suas alterações e envie um pull request.
+3. Faça suas alterações e envie um pull request.
