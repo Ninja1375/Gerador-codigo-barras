@@ -23,4 +23,49 @@ Este é um projeto simples e funcional de **Gerador de Código de Barras** desen
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/seu-usuario/gerador-codigo-barras.git
+   git clone https://github.com/Ninja1375/Gerador-codigo-barras.git
+   ```
+
+2. Navegue até a pasta do projeto:
+
+   ```bash
+   cd Gerador-codigo-barras
+   ```
+
+3. Abra o arquivo `index.html` no navegador.
+
+4. Digite o texto ou número no campo de entrada e clique no botão "Gerar Código de Barras".
+
+O código de barras será exibido. Clique no botão "Baixar Código de Barras" para salvar a imagem no seu dispositivo.
+
+## Estrutura do Projeto
+
+   ```plaintext
+   gerador-codigo-barras/
+   ├── index.html # Estrutura principal do projeto
+   ├── style.css # Estilos personalizados
+   ├── script.js # Lógica do gerador        └──    README.md # Documentação do projeto 
+   ```
+
+## Personalização
+
+Você pode personalizar o estilo do gerador editando o arquivo `style.css`. 
+
+Para alterar as opções do código de barras (como altura e largura), modifique as configurações no arquivo `script.js`:
+
+```javascript
+JsBarcode(barcode, input, { format: "CODE128", lineColor: "#000", width: 2, height: 100, displayValue: true, fontSize: 18, }); 
+```
+## Contribuições
+
+Sinta-se à vontade para contribuir com melhorias ou novas funcionalidades. Para isso:
+
+Faça um fork do projeto.Crie uma branch para sua feature:
+
+bash
+
+Copiar código
+
+git checkout -b minha-nova-feature 
+
+Faça suas alterações e envie um pull request.
