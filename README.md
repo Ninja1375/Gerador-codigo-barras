@@ -41,7 +41,7 @@ Este é um projeto simples e funcional de **Gerador de Código de Barras** desen
 ## Estrutura do Projeto
 
 ```plaintext
-   gerador-codigo-barras/
+gerador-codigo-barras/
 ├── index.html # Estrutura principal do projeto
 ├── style.css # Estilos personalizados
 ├── script.js # Lógica do gerador     └──    README.md # Documentação do projeto 
