@@ -4,7 +4,7 @@ Este é um projeto simples e funcional de **Gerador de Código de Barras** desen
 
 ## Recursos
 
-- **Geração de códigos de barras** utilizando o formato CODE128.
+- **Geração de códigos de barras** utilizando o formato `CODE128`.
 - **Interface responsiva e moderna**.
 - Opção para **baixar o código de barras** gerado como uma imagem PNG.
 
@@ -40,12 +40,12 @@ O código de barras será exibido. Clique no botão "Baixar Código de Barras" p
 
 ## Estrutura do Projeto
 
-   ```plaintext
+```plaintext
    gerador-codigo-barras/
-   ├── index.html # Estrutura principal do projeto
-   ├── style.css # Estilos personalizados
-   ├── script.js # Lógica do gerador        └──    README.md # Documentação do projeto 
-   ```
+├── index.html # Estrutura principal do projeto
+├── style.css # Estilos personalizados
+├── script.js # Lógica do gerador     └──    README.md # Documentação do projeto 
+```
 
 ## Personalização
 
@@ -60,12 +60,12 @@ JsBarcode(barcode, input, { format: "CODE128", lineColor: "#000", width: 2, heig
 
 Sinta-se à vontade para contribuir com melhorias ou novas funcionalidades. Para isso:
 
-Faça um fork do projeto.Crie uma branch para sua feature:
+Faça um fork do projeto.
 
-bash
+Crie uma branch para sua feature:
 
-Copiar código
-
-git checkout -b minha-nova-feature 
+   ```bash
+   git checkout -b minha-nova-feature
+   ```
 
 Faça suas alterações e envie um pull request.
