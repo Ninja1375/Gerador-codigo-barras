@@ -10,7 +10,7 @@ Este é um projeto simples e funcional de **Gerador de Código de Barras** desen
 
 ## Demonstração
 
-![Exemplo do Gerador de Código de Barras](https://via.placeholder.com/800x400?text=Demo+do+Gerador+de+C%C3%B3digo+de+Barras)
+![Gerador-codigo-barras](https://github.com/user-attachments/assets/4064936a-e3f2-49f3-95b2-48e6b5c906ff)
 
 ## Tecnologias Utilizadas
 
