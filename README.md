@@ -54,7 +54,14 @@ Você pode personalizar o estilo do gerador editando o arquivo `style.css`.
 Para alterar as opções do código de barras (como altura e largura), modifique as configurações no arquivo `script.js`:
 
 ```javascript
-JsBarcode(barcode, input, { format: "CODE128", lineColor: "#000", width: 2, height: 100, displayValue: true, fontSize: 18, }); 
+JsBarcode(barcode, input, {
+  format: "CODE128",
+  lineColor: "#000",
+  width: 2,
+  height: 100,
+  displayValue: true,
+  fontSize: 18,
+});
 ```
 ## Contribuições
 
