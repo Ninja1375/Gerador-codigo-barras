@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gerador de Código de Barras</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Gerador de Código de Barras</h1>
+    <form id="barcode-form">
+      <label for="barcode-input">Digite o texto ou número:</label>
+      <input type="text" id="barcode-input" placeholder="Exemplo: 123456789" required>
+      <button type="submit">Gerar Código de Barras</button>
+    </form>
+    <div class="barcode-container">
+      <svg id="barcode"></svg>
+    </div>
+    <div id="download-container" style="display: none;">
+      <button id="download-btn">Baixar Código de Barras</button>
+    </div>
+  </div>
+  <footer>
+    Desenvolvido com ❤ por <a href="https://ninja1375.github.io/Meu-Portfolio/" target="_blank">Antônio Nascimento</a>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/jsbarcode@3.11.5/dist/JsBarcode.all.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
