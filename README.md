@@ -1,6 +1,6 @@
 # Gerador de Código de Barras 
 
-Este é um projeto simples e funcional de **Gerador de Código de Barras** desenvolvido com **HTML**, **CSS** e **JavaScript**. Ele permite criar códigos de barras baseados no texto ou número digitado e oferece a opção de baixá-los como imagem.
+Este é um projeto simples e funcional de **[Gerador de Código de Barras](https://ninja1375.github.io/Gerador-codigo-barras/)** desenvolvido com **HTML**, **CSS** e **JavaScript**. Ele permite criar códigos de barras baseados no texto ou número digitado e oferece a opção de baixá-los como imagem.
 
 ## Recursos
 
